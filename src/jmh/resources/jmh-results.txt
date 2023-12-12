@@ -1,0 +1,4 @@
+Benchmark                                                       (arrSize)    (parallelism)  Mode  Cnt     Score     Error    Units
+ParallelQuickSortBenchmark.parallelUsingCoroutines              100000000         4         avgt   15   5846,507 ±  274,256  ms/op
+benchmark.ParallelQuicksortBenchmark.parallelUsingForkJoinPool  100000000         4         avgt   15   9466,882 ±   35,275  ms/op
+benchmark.SequentialQuicksortBenchmark.sequential               100000000        N/A        avgt   15  23788,143 ±  425,839  ms/op
